@@ -1,0 +1,19 @@
+#Leap Year Check
+year= (int)(input("Please Enter the year: "))
+#----------------------------------------
+print("--------------------------------------------------------")
+#Leap Year Check Condition
+if(year % 4 ==0):
+    if(year % 100 ==0):
+        print(year, " is not a Leap year")
+    else:
+        print(year, " is  a Leap year")
+        
+        
+else:
+    if(year % 400 ==0):
+        print(year, " is  a Leap year")
+    else:
+      print(year, " is not a Leap year")
+    
+  
