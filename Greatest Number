@@ -1,0 +1,31 @@
+#Fine Greatest number among of 4 number
+Num1 = (int)(input("Enter the First Number: "))
+Num2 = (int)(input("Enter the Second Number: "))
+Num3 = (int)(input("Enter the Third Number: "))
+Num4 = (int)(input("Enter the Fourth Number: "))
+#---------------------------------------------------
+print("-----------------------------------------------------")
+# condition to check Greatest
+if(Num1==Num2 or Num1==Num3 or Num1==Num4 or Num2==Num3 or Num2==Num4 or Num3==Num4):
+   print(" Any number equal to other number")       
+    
+else:   
+    if(Num1 > Num2 and Num1 > Num3 and Num1 > Num4):
+        print(Num1, "is Greatest number")
+    else:
+        if(Num2 > Num1 and Num2 > Num3 and Num2 > Num4):
+            print(Num2, "is Greatest number")
+        else:
+             if(Num3 > Num1 and Num3 > Num2 and Num3 > Num4):
+                 print(Num3, "is Greatest number")
+
+             else:
+                print(Num4 , "is Greatest Number")
+              
+                        
+            
+    
+    
+        
+
+
