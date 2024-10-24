@@ -1,0 +1,16 @@
+#Determine if a person is eligible to vote (age ≥ 18)
+#input age form user
+age = (int)(input("Enter the Age:(in years)  "))
+print("----------------------------------------")
+#condition for vote
+if(age <= 0):
+    print("Invalid Age")
+else:
+    if(age >= 18):
+        print("Person is Eligible to Vote")
+        
+    else:
+        print("Person is not Eligible to Vote")
+        
+    
+ 
