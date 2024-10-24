@@ -1,0 +1,12 @@
+#Determine if a person’s height is greater than 5 feet
+#Input height form user
+height = (float)(input("Please Enter Height(in Feet): "))
+print("---------------------------------------------")
+#condition
+if(height > 5):
+    print(height, "person’s height is greater than 5 feet")
+else:
+    print(height, "person’s height is Less than 5 feet")
+    
+if(height < 0):
+    print("Invalid Input")
