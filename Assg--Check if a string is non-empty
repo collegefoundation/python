@@ -1,0 +1,8 @@
+#Check if a string is non-empty
+# String input by user
+mystring = input("Please enter a string: ")
+
+if mystring:
+    print("The string is non-empty.")
+else:
+    print("The string is empty.")
