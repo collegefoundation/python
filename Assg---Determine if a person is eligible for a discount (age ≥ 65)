@@ -1,0 +1,9 @@
+#Determine if a person is eligible for a discount (age ≥ 65)
+age = (int)(input("Enter age to check eligible for discount: "))
+#--------------------------------------------------------------
+print("--------------------------------------------------------")
+#condition
+if(age >= 65):
+    print("Congratulation!  You are eligible for a discount. ")
+else:
+    print("Wow!  You are not eligible for a discount. ")
