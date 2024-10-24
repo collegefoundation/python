@@ -1,0 +1,8 @@
+#Check if a number is odd
+# Input a number from user
+num = (int)(input("Enter a number:  "))
+print("--------------------------------")
+if(num % 2 !=0):
+    print("YES Number :",num,"is Odd ")
+else:
+    print("Number :",num,"is not Odd ")
