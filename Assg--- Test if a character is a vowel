@@ -1,0 +1,9 @@
+# Test if a character is a vowel
+chars = (str)(input("Please enter a character: "))
+print("-----------------------")
+#check condition
+if(chars == 'a' and chars == 'e' and chars == 'i' and chars == 'o' and chars == 'u'):
+    print("chartacter", chars,  "is a Vovel. ")
+else:    
+    print("chartacter", chars,  "is a Constant. ")
+                     
