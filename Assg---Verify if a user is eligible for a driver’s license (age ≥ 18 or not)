@@ -1,0 +1,11 @@
+# Verify if a user is eligible for a driver’s license (age ≥ 18 or not)
+age = (int)(input("Enter age for driver's license: "))
+print("==================================================")
+#condition
+if(age >= 18 ):
+    print("You are eligible for a driver's license" )
+else:
+    print("You are not eligible for a driver's license" )
+if(age <=0 ):
+    print("Invalid age ")
+
