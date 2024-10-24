@@ -1,0 +1,10 @@
+#Check if a number is less than or equal to zero
+#input a number form user
+num = (int)(input("Enter a number: "))
+print("----------------------")
+#condition
+if(num <= 0):
+    print("YES" ,num, "is less or equal to zero")
+else:
+    print("No" ,num, "is not less or equal to zero")
+
