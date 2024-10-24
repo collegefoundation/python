@@ -1,0 +1,10 @@
+#Check if a number is within a certain range (10 to 20)
+# insert a number form user
+num = (int)(input("Enter a number: "))
+#--------------------------------------
+print("==========================================")
+#condition
+if(num > 10 and num < 20):
+    print("Yes, number", num ,"is within a range 10 to 20")
+else:    
+    print("No, number", num ,"is within a range 10 to 20")
