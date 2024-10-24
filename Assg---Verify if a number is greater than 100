@@ -1,0 +1,9 @@
+# Verify if a number is greater than 100.
+# Input number form user
+num = (int)(input("Please Enter a Number: "))
+print("-------------------------------------------")
+if(num > 100):
+    print("Yes Verify")
+else:
+    print("No Verify")
+
