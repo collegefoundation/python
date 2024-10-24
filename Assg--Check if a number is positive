@@ -4,10 +4,8 @@ number = (int)(input("Please Enter a Number: "))
 #Number check for positive
 if(number==0):
     print("Number is Neither Positive nor Negative")
-else:    
-    if(number > 0):
-       print(number, "is a positive ")
-       
-    else:
+if(number > 0):
+    print(number, "is a positive ")
+if(number < 0)
         print(number, "is a Negative ")
     
