@@ -1,0 +1,9 @@
+#Check if a number is divisible by 10
+# Input a number form user
+num = (int)(input("Please enter a Number: "))
+# check condition
+if(num % 10 == 0):
+    print("Yes" ,num, "is divisible by 10 ")
+     
+else:
+    print("No" ,num, "is not divisible by 10")
