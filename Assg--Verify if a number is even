@@ -5,5 +5,5 @@ print("----------------------------------")
 #Check condition
 if(num % 2 == 0):
     print(num, "is a Even Number")
-else:
+if(num % 2 !=0):
     print(num, "is a odd Number")
