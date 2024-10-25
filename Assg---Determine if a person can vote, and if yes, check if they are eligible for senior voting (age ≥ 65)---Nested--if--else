@@ -1,0 +1,15 @@
+#Determine if a person can vote, and if yes, check if they are eligible for senior voting (age ≥ 65)
+# Enetr age of a person
+age = (int)(input("Enter Your age for Vote (in Year): "))
+#---------------------------------------------------------
+print("---------------------------------------------------")
+if(age >= 18):
+    print("Your age is " ,age ,"years")
+    print("Yes, You are eligible Voting.")
+    if(age >= 65):
+        print("And you are also are eligible Senior Voting")
+    
+else:
+    print("Your age is ", age ,"years")
+    print("No, you are not eligible voting. ")
+
