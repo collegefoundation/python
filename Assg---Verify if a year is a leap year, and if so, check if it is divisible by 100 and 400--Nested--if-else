@@ -1,0 +1,21 @@
+# Verify if a year is a leap year, and if so, check if it is divisible by 100 and 400
+# enter input from user to check check leap year
+year= (int)(input("Please Enter the year: "))
+#----------------------------------------
+print("--------------------------------------------------------")
+#Leap Year Check Condition
+if(year % 4 == 0):
+    if(year % 100 == 0):
+        print(year, " is not a Leap year")
+        print("And Year ", year, "is divisible by 100" )
+    else:
+        print(year, " is  a Leap year")       
+        
+else:
+    if(year % 400 == 0):
+        print(year, " is  a Leap year")
+        print("And Leap Year ", year, "is divisible by 400" )
+    else:
+      print(year, " is not a Leap year")
+    
+  
