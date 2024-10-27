@@ -1,0 +1,15 @@
+# Check if a number is divisible by 2, and if so, further check if it is divisible by 4
+# Input a number form user
+number = (int)(input("Please enter a number: "))
+print("-----------------------------------------")
+print("Enter Number: ",number)
+#check condition for divisible by 2
+if(number % 2 == 0):
+    print("Number: ", number , "is divisible by 2.")
+    #check condition for divisible by 2
+    if(number % 4 == 0):
+        print("And, number is also divisible by 4.")
+    else:
+        print("But, number is not  divisible by 4.")        
+else:
+    print("Number: ", number , "is not divisible by 2.")
