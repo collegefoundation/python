@@ -1,0 +1,18 @@
+# Verify if a student has passed a subject, and if passed, check if they scored distinction (≥ 75)
+#Input a subject from user
+subject = (int)(input("Enter the marks of a subject: "))
+#condition for passed 30 marks
+#display
+#input validation
+if(subject < 0 or subject > 100):
+    print("Invalid Marks. ")
+else:
+    print("--------------------------------")
+
+    print("Enter Marks: ", subject)
+    if(subject >= 30):
+        print("Student has passed.")
+        if(subject >= 75):
+            print("And scored Distinction.")
+    else:
+        print("Student has fail.")
