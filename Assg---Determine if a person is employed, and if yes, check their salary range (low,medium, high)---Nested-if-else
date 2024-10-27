@@ -1,0 +1,20 @@
+# Determine if a person is employed, and if yes, check their salary range (low,medium, high)
+# input salary form user
+salary = (int)(input("Enter Salary of Employee(in RS.): "))
+#Condition for salary range low = 30000, medium = 50000 high = 50000+
+if(salary <= 0):
+    print("Invalid salary.")
+else:
+    #------------------display---------------
+    print("------------------------------------")
+    print("Enter Salary: ", salary)    
+    if(salary <= 30000):
+        print("Employee salary: ", salary, "is low Range.")
+    elif(salary <= 50000 and salary > 30000):
+        print("Employee salary: ", salary, "is Medium Range.")
+    else:
+        print("Employee salary: ", salary, "is High Range.")
+        
+    
+
+               
