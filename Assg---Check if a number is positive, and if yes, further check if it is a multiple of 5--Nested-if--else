@@ -1,0 +1,20 @@
+# Check if a number is positive, and if yes, further check if it is a multiple of 5
+# Input a number from users
+number = (int)(input("Please Enter a number: "))
+#---------------------------------------------
+print("---------------------------------------")
+#condition to check numbe is negative or positive
+if(number > 0):
+    print("Enter number: ", number, "is a positive number.")
+    # condition to check for multiple of 5
+    if(number % 5 == 0):
+        print("Yes, Number ",number,"is multiple of 5")
+    else:
+        print("No, Number", number, "is not multiple of 5")    
+elif(number < 0):
+    print("Enter number: ", number, "is a Negative number.")
+else:
+    print("Enter number: ", number, "Niether  positive nor Negative.")
+    
+
+    
