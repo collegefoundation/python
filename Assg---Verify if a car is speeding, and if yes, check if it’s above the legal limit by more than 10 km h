@@ -1,0 +1,17 @@
+# Verify if a car is speeding, and if yes, check if it’s above the legal limit by more than 10 km/h
+# input car speed from user
+speed = (int)(input("Please enter the car speed(km/h): "))
+# condition for car legal speeding highway 80 km/h
+#display
+print("------------------------------------------")
+print("Car Speed: ", speed)
+# if legal speed and more than 10 km/h , car is speeding
+if(speed > 90):
+    print("Car is Speeding on Highway.")
+else:    
+    print("Car is normal speed on Highway.")
+
+    
+    
+    
+    
