@@ -1,0 +1,21 @@
+#Verify if a person’s height is above 160 cm, and if yes, check their weight category (underweight, normal, overweight)
+#input height form users
+height = (float)(input("Please enter Height(in cm): "))
+#------------------------------------------------------
+print("---------------------------------------------")
+print("Height: ",height)
+# condition for  height is above 160 cm
+if(height < 159):
+    print("Person's height less than 160 cm.")
+    print("Person's height elss 160 cm and weight underweight Categary.") 
+else:
+    #condition for  check their weight category (underweight, normal, overweight)
+    if(height == 160):
+        print("Person's height equal 160 cm and weight normal Categary.")
+    else:                           
+        print("Person's height greater than 160 cm and weight overweight Categary.")
+    
+        
+    
+    
+                 
