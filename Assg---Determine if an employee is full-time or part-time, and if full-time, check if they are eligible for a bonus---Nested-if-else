@@ -1,0 +1,20 @@
+#Determine if an employee is full-time or part-time, and if full-time, check if they are eligible for a bonus.
+#input from user working hour in a day
+hour = (int)(input("Please enter the working in a day: "))
+#--------------------------------
+print("-------------------------------")
+#condition for employee is full-time or part-time
+if(hour >= 8):
+    print("Employee is a full-time")
+    #condition for Bonus
+    month_workin_day = int(input("Please enter total working days in month: "))
+    if(month_workin_day >= 25):
+        print("And employee is eligible for bonus.")
+    
+elif(hour <= 4):
+    print("Employee is a part -pime")
+elif(hour < 0):
+    print("Invalid.")
+
+    
+
