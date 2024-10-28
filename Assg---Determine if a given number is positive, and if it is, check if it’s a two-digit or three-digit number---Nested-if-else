@@ -1,0 +1,18 @@
+# Determine if a given number is positive, and if it is, check if it’s a two-digit or three-digit number
+# input a number form user
+number = (int)(input("Please enter a number: "))
+#condition for input positive number
+print("-------------------------------------------")
+print("Enter Number: ", number)
+if(number > 0):
+    print("Enter Number :",number, "is a positive.")
+    #condition for check if it’s a two-digit or three-digit number
+    digit = len(str(abs(number)))
+    if(digit==2):
+         print("Number : ",number ,"is a two-digit number")
+    elif(digit==3):
+         print("Number : ",number ,"is a three-digit number")
+    else:    
+         print("Number : ",number ,"is neither two-digit number nor three-digit.")
+else:
+    print("Enter Number :",number, "is not a positive.")
