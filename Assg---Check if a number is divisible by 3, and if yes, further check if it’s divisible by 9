@@ -1,0 +1,15 @@
+#Check if a number is divisible by 3, and if yes, further check if it’s divisible by 9
+# Input a number form user
+number = (int)(input("Please enter a number: "))
+#-------------------------------------
+print("-------------------------------")
+print("Enter Number: ",number)
+#condition for divisible by 3
+if(number % 3 ==0):
+    print("Number: ",number ,"is divisible by 3.")
+    #further condition for divisible by 9
+    if(number % 9 == 0):
+        print("And number: ", number, "is also divisible by 9.")
+else:
+    print("Number: ",number ,"is not divisible by 3.")
+
