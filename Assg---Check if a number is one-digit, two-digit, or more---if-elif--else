@@ -1,0 +1,15 @@
+#Check if a number is one-digit, two-digit, or more
+# input a number from user
+number = int(input("Enter a number: "))
+#---------------------------------
+print("--------------------------------------")
+print("Enter Number: " ,number)
+#lenth find out to check number is one-digit, two-digit, or more
+digit = len(str(number))
+#condition
+if(digit == 1):
+    print("Number ",number ,"is a One-Digit Number.")
+elif(digit == 2):
+    print("Number ",number ,"is a Two-Digit Number.")
+else:
+    print("Number ",number ,"is more than Two-Digit Number.")
