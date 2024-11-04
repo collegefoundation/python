@@ -1,0 +1,20 @@
+#Check if a person is a child, adolescent, or adult based on age
+#input age form the user
+age = int(input("Enter the age of person: "))
+# condition-------------------------------------------
+'''
+Child: 0–12 years
+Adolescent: 13–17 years
+Adult: 18+ years
+
+'''
+#-----------------------------------------------------
+print("------------------------------------")
+print("Enter Age : ",age)
+if(age > 0 and age < 12):
+    print("Person is a child.")
+elif(age > 13 and age < 17):
+    print("Person is a Adolescent.")
+elif(age > 18):
+    print("Person is a Adult.")
+        
