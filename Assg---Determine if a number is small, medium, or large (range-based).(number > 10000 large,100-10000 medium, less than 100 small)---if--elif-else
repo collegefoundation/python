@@ -1,0 +1,12 @@
+#Determine if a number is small, medium, or large(range-based).(number >10000 large,100-10000 medium, less than 100 small)
+# Input a number from user
+number = int(input("Enter a number: "))
+#----------------------------------------
+print("---------------------------------")
+#condition
+if(number < 100):
+    print("Enter number: ",number, "is small.")
+elif(number < 10000 and number > 100):   
+    print("Enter number: ",number, "is Medium.")
+elif(number < 10000 ):   
+    print("Enter number: ",number, "is Large.")    
