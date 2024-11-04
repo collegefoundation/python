@@ -1,0 +1,11 @@
+#Check if a day is a weekday or weekend (using the day’s name)# Input day name from user
+day = str(input("Enter the day name(in small Case): "))
+#-----------------------------------------
+print("-----------------------------------")
+#Condition
+if(day == 'sunday' or day == 'saturday'):
+    print("Enter Day: ",day, "is Weekend.")
+elif(day == 'monday' or day == 'tuesday' or day == 'wednesday' or day == 'thursday' or day == 'friday'):
+    print("Enter Day: ",day, "is Weekday.")
+else:
+    print("Invalid Day")
