@@ -1,0 +1,18 @@
+#Determine a person’s life stage (child, teen, adult, senior) based on age
+#input age form user
+age = int(input("Enter the age: "))
+#Condition
+if(age > 120 or age < 0):
+    print("Invalid Age.")
+else:
+    print("------------------------------------")
+    print("Enter age: ", age)
+    if(age < 12):
+        print("Person’s is a child.")
+    elif(age > 13 and age < 19):
+        print("Person’s is a Teen.")
+    elif(age > 20 and age < 56):
+        print("Person’s is a Adult.")
+    else:
+        print("Person's is a Senior.")
+                
