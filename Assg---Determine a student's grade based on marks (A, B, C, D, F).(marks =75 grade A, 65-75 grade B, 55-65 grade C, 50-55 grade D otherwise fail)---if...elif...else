@@ -1,0 +1,24 @@
+#Determine a student's grade based on marks (A, B, C, D, F).(marks =75 grade A, 65-75 grade B, 55-65 grade C, 50-55 grade D otherwise fail)
+#Input a marks from user
+marks = (int)(input("Enter the marks: "))
+#condition for passed 30 marks
+#display
+#input validation
+if(marks < 0 or marks > 100):
+    print("Invalid Marks. ")
+else:
+    print("--------------------------------")
+
+    print("Enter Marks: ", marks)
+    if(marks >= 75):
+        print("Marks A Grade.")
+    elif(marks >= 65 and marks < 75):
+        print("Marks B Grade.")
+    elif(marks >= 55 and marks < 65 ):
+        print("Marks C Grade.")             
+    elif(marks >= 50 and marks < 55):
+        print("Marks D Grade.")
+    else:
+        print("Marks fail.")
+      
+              
