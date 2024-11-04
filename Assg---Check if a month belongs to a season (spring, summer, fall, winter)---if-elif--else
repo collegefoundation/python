@@ -1,0 +1,16 @@
+#Check if a month belongs to a season (spring, summer, fall, winter)
+# Input the month form user
+month = str (input("Enter name of the month(in small case): "))
+#condition
+#----------------------------------------------
+print("----------------------------------------")
+if(month == 'march' or month == 'april' or month == 'may'):
+    print( month , "belongs to spring season.")
+elif(month == 'june' or month == 'july' or month == 'august'):
+    print( month , "belongs to Summer season.")
+elif(month == 'september' or month == 'october' or month == 'november'):
+    print( month , "belongs to Fall season.")
+elif(month == 'december' or month == 'january' or month == 'february'):
+    print( month , "belongs to Winter season.")
+else:
+    print("Invalid")
