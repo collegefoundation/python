@@ -1,0 +1,16 @@
+#Check if a temperature is hot, warm, or cold. (temp >35 hot , 10-35 warm less than 10 cold)
+# Input temperature form user
+temp = float (input("Enter the temperature: "))
+print("-------------------------------------------")
+#--------------------------------------------------
+#condition for hot, warm, cold
+if(temp > 35):
+    print("Temperature is Hot.")
+elif(temp >= 10 and temp < 35):
+    print("Temperature is Warm.")
+elif(temp < 10):
+    print("Temperature is Cold.")
+else:
+    print("Invalid Temperature.")
+    
+
