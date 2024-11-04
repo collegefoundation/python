@@ -1,0 +1,18 @@
+#Determine if a given year is in the 19th, 20th, or 21st century
+# Input the Year
+year = int(input("Enter The Year: "))
+#condition
+'''
+19th Century: 1801 to 1900
+20th Century: 1901 to 2000
+21st Century: 2001 to 2100
+'''
+print("-------------------------------------")
+if(year > 1801 and year < 1900):
+    print(year, "Year is a 19th Century.")
+elif(year > 1901 and year < 2000):
+    print(year, "Year is a 20th Century.")
+elif(year > 2001 and year < 2100):
+    print(year, "Year is a 21th Century.")
+else:
+    print("Invalid")
