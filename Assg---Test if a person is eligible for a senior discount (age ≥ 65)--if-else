@@ -1,0 +1,14 @@
+#Test if a person is eligible for a senior discount (age ≥ 65)
+# input age
+age = int(input("Enter age(in year): "))
+#-----------------------------------------
+print("----------------------------------")
+print("Enter Age: ",age)
+#condition
+if(age <= 0 or age >120):
+    print("Invalid age.")
+else:
+    if(age >= 65):
+        print("Person is eligible for a senior discount.")
+    else:
+        print("Person is not eligible for a senior discount")
