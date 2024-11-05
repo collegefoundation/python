@@ -1,0 +1,12 @@
+# Check if a person is tall enough for a ride (height ≥ 150 cm or not).
+# input person height
+height = float(input("Please Enter the  height(in cm): "))
+#condition
+#-------------------------------------
+print("--------------------------------")
+print("Height: ",height)
+if(height >= 150):
+    print("Person is tall enough for a ride")
+else:
+    print("Person is not tall enough for a ride")
+
