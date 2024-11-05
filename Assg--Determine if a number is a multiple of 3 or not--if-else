@@ -1,0 +1,11 @@
+#Determine if a number is a multiple of 3 or not
+# input a number
+number = int(input("Enter a number: "))
+#------------------Display------------
+print("----------------------------------")
+print("Number: ", number)
+#condition
+if(number % 3 == 0):
+    print("Number ", number, "is multiple of 3")
+else:
+    print("Number ", number, "is not multiple of 3")
