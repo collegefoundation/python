@@ -1,0 +1,12 @@
+#Test if a temperature is above or below freezing
+# Input a temperature form user
+temperature = float(input("Please Enter temperature(in °C): "))
+#-------------------------------
+print("------------------------------")
+print("Temperature: ", temperature, "°C")
+#condition
+if(temperature > 0):
+    print("temperature is above freezing.")
+else:
+    print("temperature is below freezing")
+    
