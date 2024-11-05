@@ -1,0 +1,20 @@
+#Assign a performance rating based on a percentage (excellent, good, average,poor)
+# Input a percentage from user
+percentage = float(input("Enter percentage(%): "))
+#--------------------------------------------------
+print("--------------------------------------------")
+#condition
+'''
+Excellent: 90% and above
+Good: 70% - 89%
+Average: 50% - 69%
+Poor: Below 50%
+'''
+if(percentage > 90):
+    print("Excellent Performance.")
+elif(percentage > 70 and percentage < 89):
+    print("Good Performance.")
+elif(percentage > 50 and percentage < 69):
+    print("Average Performance.")
+elif(percentage < 50 ):
+    print("Poor Performance.")
