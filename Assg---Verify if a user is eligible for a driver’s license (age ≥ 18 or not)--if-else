@@ -1,0 +1,14 @@
+#Verify if a user is eligible for a driver’s license (age ≥ 18 or not)
+# Input age from the user
+age = int(input("Please Enter age(in year): "))
+#-----------------------------------
+print("----------------------------")
+print("Enter age : ", age )
+#condition
+if(age < 0 or age > 120 ):
+    print("Invalid Age.")
+else:    
+    if(age >= 18):
+        print("Yes, User is eligible for a driver's License.")
+    else:
+        print("No, User is not eligible for a driver's License.")
