@@ -1,0 +1,12 @@
+#Determine if a number is a positive integer or not
+# input a number
+number  = int(input("Enter a number: "))
+#---------------------------------------
+print("---------------------------------")
+print("Number: ",number)
+#condition
+if(number > 0):
+    print("Number is a positive integer.")
+else:
+    print("Number is not a positive integer.")
+
