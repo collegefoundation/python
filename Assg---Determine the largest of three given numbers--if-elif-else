@@ -1,0 +1,14 @@
+#Determine the largest of three given numbers
+# Input Three number
+number1 = int(input("Enter First number: "))
+number2 = int(input("Enter second number: "))
+number3 = int(input("Enter Third number: "))
+#-----------------------------------------------
+print("----------------------------------------")
+#condition
+if((number1 > number2) and (number1 > number3)):
+    print("Number: ",number1,"is a Largest Number.")
+elif((number2 > number1) and (number2 > number3)):
+    print("Number: ",number2,"is a Largest Number.")
+else:
+    print("Number: ",number3,"is a Largest Number.")
