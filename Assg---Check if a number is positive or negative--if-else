@@ -1,0 +1,14 @@
+#Check if a number is positive or negative
+# input a number from user
+number = int(input("Enter a Number: "))
+#------------------------------------
+print("------------------------------")
+#condition
+if(number == 0):
+    print("Number is a zero.")
+else:    
+    if(number > 0):
+        print("Number ", number, "is a positive")
+    else:
+        print("Number ", number, "is a Negative")
+    
