@@ -1,0 +1,11 @@
+#Check if a number is a two-digit number or not
+#input a number
+number = int(input("Enter a number: "))
+digit = len(str(number))
+#-------------------
+print("----------------------------------")
+print("Number: ", number)
+if(digit==2):
+    print("Number : ",number ,"is a two-digit number")
+else:    
+    print("Number",number ,"is not two-digit number.")
