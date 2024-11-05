@@ -1,0 +1,11 @@
+#Verify if a number is in the range of 1 to 100 or outside
+# input a number from user
+number = int (input("Enter a  number: "))
+#-------------------------------------------
+print("-------------------------------------")
+#condition
+if(number > 1 and number < 100 ):
+    print("Number is in the range of 1 to 100")
+else:
+     print("Number is outside of 1 to 100")
+
