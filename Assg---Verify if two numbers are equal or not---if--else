@@ -1,0 +1,15 @@
+#Verify if two numbers are equal or not
+# Input two number
+number1 = int(input("Enter the first number: "))
+number2 = int(input("Enter the Second number: "))
+#--------------------------
+print("-----------------------------------------")
+print("Number 1 :", number1)
+print("Number 2 :", number2)
+#------------------------
+#condition
+if(number1 == number2):
+    print("Two numbers are equal.")
+else:
+    print("Two numbers are not equal.")
+
