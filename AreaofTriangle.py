@@ -1,3 +1,4 @@
+#Write a program to calculate semiper area of triangle
 side1=36
 side2=25
 side3=50
