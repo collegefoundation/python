@@ -1,0 +1,12 @@
+#Write a Python program to count the occurrences of each word in a given sentence
+#string = “To change the overall look of your document. To change the look available in the gallery”
+#string declear
+str ="To change the overall look of your document. To change the look available in the gallery"
+total = len(str)
+print("total words: ",total)
+
+
+
+#output:
+
+#  total words:  88
