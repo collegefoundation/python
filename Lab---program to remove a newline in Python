@@ -1,0 +1,13 @@
+# Write a Python program to remove a newline in Python
+# String = "\nBest \nDeeptech \nPython \nTraining\n"
+
+str = "\nBest \nDeeptech \nPython \nTraining\n"
+strnew = str.replace("\n", " ")
+print(strnew)
+
+
+
+
+#Output:
+
+# Best  Deeptech  Python  Training
