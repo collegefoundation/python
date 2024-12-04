@@ -1,0 +1,14 @@
+# write a Python program to get the largest and smallest number from a list without buitin funtion
+list = [9,7,2,58,15,16,85,95]
+list.sort()
+small = list[0]
+list.sort(reverse = True)
+large = list[0]
+
+print(f"large number : {large}")
+print(f"small number : {small}")
+
+# Output
+
+#large number : 95
+#small number : 2
