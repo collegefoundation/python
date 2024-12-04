@@ -1,0 +1,15 @@
+# Write a python program to split a given list into two parts where the length of the first part of the list is gigen
+# Length of first part 3
+
+
+list = [1,1,2,3,4,4,5,1]
+first_part = list[0:3]
+second_part = list[3:8]
+print(f"First Part of List:  {first_part}" )
+print(f"First Part of List:  {second_part}")
+
+
+
+# Output
+#First Part of List:  [1, 1, 2]
+#First Part of List:  [3, 4, 4, 5, 1]
